@@ -57,7 +57,7 @@ function finishGame() {
 function createRandomCircle() {
     const circle = document.createElement('div')
     circle.classList.add('circle')
-    const size = getRandomNum(10, 60)
+    const size = getRandomNum(20, 60)
     const {width, height} = board.getBoundingClientRect()
     const x = getRandomNum(0, width - size)
     const y = getRandomNum(0, height - size)
